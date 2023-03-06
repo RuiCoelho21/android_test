@@ -6,13 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <Button
         android:id="@+id/login"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
         android:layout_marginStart="67dp"
         android:layout_marginEnd="67dp"
-        android:layout_marginBottom="26dp"
+        android:layout_marginBottom="6dp"
         android:backgroundTint="@color/black"
         android:text="@string/login"
         app:layout_constraintBottom_toTopOf="@+id/register"
@@ -23,11 +24,11 @@
 
     <Button
         android:id="@+id/register"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
         android:layout_marginStart="67dp"
         android:layout_marginEnd="67dp"
-        android:layout_marginBottom="118dp"
+        android:layout_marginBottom="117dp"
         android:backgroundTint="@color/black"
         android:text="@string/register"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,13 +51,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="LabelFor,TouchTargetSizeCheck" />
+        tools:ignore="HardcodedText,LabelFor,TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="66dp"
+        android:layout_marginBottom="85dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="Password"
@@ -64,5 +65,5 @@
         app:layout_constraintBottom_toTopOf="@+id/login"
         app:layout_constraintStart_toStartOf="@+id/email"
         app:layout_constraintTop_toBottomOf="@+id/email"
-        tools:ignore="LabelFor,TextFields,TouchTargetSizeCheck" />
+        tools:ignore="HardcodedText,LabelFor,TextFields,TouchTargetSizeCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>
