@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        //firebase auth
         auth = Firebase.auth
         auth = FirebaseAuth.getInstance()
 
