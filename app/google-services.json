@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "552961261342",
+    "firebase_url": "https://trainee-61f35-default-rtdb.firebaseio.com",
+    "project_id": "trainee-61f35",
+    "storage_bucket": "trainee-61f35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552961261342:android:e577f0d91a26065d33930f",
+        "android_client_info": {
+          "package_name": "com.example.trainee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552961261342-jh2o0k18cqld8ec9l94krqaua6cchrat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0lpMmID4RQXacfcTVqYtLlBTHStsVIJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552961261342-jh2o0k18cqld8ec9l94krqaua6cchrat.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
